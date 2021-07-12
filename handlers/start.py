@@ -12,10 +12,10 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAx0CQ8QTWQACCD9gpSGtPso-JueMmC6tCptx2H6VjAACngEAAmpqaFeIQbV46r_aFh8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
+\I am Ichimichi Mao
 
-Music Assistant - @camilaowner
-\nTo add in your group contact us at @camila_Support or do /userbotjoin
+Music Assistant - @bearzap (cloud zone)
+\ I only work at niaz cloud zone
 \nHit /help list of available commands.
  </b>""",
       
@@ -24,23 +24,23 @@ Music Assistant - @camilaowner
             [
                 [
                     InlineKeyboardButton(
-                      "✨CamilaAssistant", url="https://t.me/camilaowner",
+                      "✨ichimichimaoAssistant", url="https://t.me/igen1x",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Help Group", url="https://t.me/camila_support"
+                        "💬 Help Group", url="https://t.me/bearzap"
                     ),
                     InlineKeyboardButton(
                         "stickers💖", url="https://t.me/stickersbag"
-                    ),
-                    InlineKeyboardButton(
-                        "✨GitHub✨", url="http://www.github.com/War-Legend/camilavcbot"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/camillaMusicbot?startgroup=true"
+                   
+                   
+                       
+                    
+                
+                
+            
+                        
                     ) 
                 ]
             ]
@@ -59,7 +59,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support Group  ", url="https://t.me/camila_support"
+                        "Support Group  ", url="https://t.me/bearzap"
                     )
                 ],    
                 [    
@@ -105,7 +105,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Need Help❓", url="https://t.me/camila_Support"
+                        "Need Help❓", url="https://t.me/bearzap"
                     )
                 ]
             ]
