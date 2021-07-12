@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CQ8QTWQACCD9gpSGtPso-JueMmC6tCptx2H6VjAACngEAAmpqaFeIQbV46r_aFh8E")
+    await message.reply_picture ("https://telegra.ph/file/0d19d330b790f5c7c5424.jpg")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \I am Ichimichi Mao
